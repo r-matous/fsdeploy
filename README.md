@@ -102,6 +102,8 @@ scp {
 	username: "cpuser",
 	password: "cppassword"
 }
+## Contribution
+support for multi root
 
 ## Known Issues
 scp doesn't support certificate authentication. It's recommended to have a user which has only write permissions to the desired remote folder used in the deploy binding. No read is required.
